@@ -21,6 +21,8 @@ sudo apt-get update
 sudo apt-get install atom
 
 #install master tool
+sudo add-apt-repository ppa:synapse-core/ppa
+sudo apt-get update
 sudo apt-get install synapse
 sudo apt-get install ksnapshot
 
@@ -58,3 +60,11 @@ sudo apt-get install wiz_note
 
 #install git
 sudo apt-get install git
+
+#classic menu url http://www.florian-diesch.de/software/classicmenu-indicator/
+
+#install unity tweak tool
+sudo apt-get install unity-webapps-service unity-tweak-tool 
+
+#open terminal in right menu
+sudo apt-get install nautilus-open-terminal
