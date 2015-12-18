@@ -16,7 +16,7 @@ sudo apt-get install build-essential
 
 #install something for edit
 sudo apt-get install vim
-sudo add-apt-repository ppa:webupd8team/atom 
+sudo add-apt-repository ppa:webupd8team/atom
 sudo apt-get update
 sudo apt-get install atom
 
@@ -64,7 +64,17 @@ sudo apt-get install git
 #classic menu url http://www.florian-diesch.de/software/classicmenu-indicator/
 
 #install unity tweak tool
-sudo apt-get install unity-webapps-service unity-tweak-tool 
+sudo apt-get install unity-webapps-service unity-tweak-tool
 
 #open terminal in right menu
 sudo apt-get install nautilus-open-terminal
+
+#install f.lux to protect eye
+sudo add-apt-repository ppa:kilian/f.lux
+sudo apt-get update
+#some one say need to edit /etc/apt/sources.list.d/kilian-f_lux-saucy.list
+#change the post code from sancy to raring
+#in ubuntu 14.04 I try.It needn't
+sudo apt-get install fluxgui
+#when installed , need to change the file /usr/bin/xflux to the file downloaded
+#from https://justgetflux.com/linux/xflux64.tgz
